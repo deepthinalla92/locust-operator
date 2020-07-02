@@ -1,0 +1,7 @@
+apiVersion: locust.leftbin.com/v1alpha1
+kind: LocustCluster
+metadata:
+  name: locustcluster-sample
+spec:
+  # Add fields here
+  foo: bar
