@@ -1,3 +1,7 @@
 domain: leftbin.com
 repo: github.com/deepthinalla92/locust-operator
+resources:
+- group: locust
+  kind: LocustCluster
+  version: v1alpha1
 version: "2"
